@@ -49,9 +49,10 @@ body {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
+
 }
 
-.box1 li {
+.box1 a {
     color: hsl(31, 77%, 52%);
 }
 
@@ -59,7 +60,7 @@ body {
     background-color: hsl(184, 100%, 22%);
 }
 
-.box2 li {
+.box2 a {
     color: hsl(184, 100%, 22%);
 }
 
@@ -69,13 +70,14 @@ body {
     border-bottom-right-radius: 3%;
 }
 
-.box3 li {
+.box3 a {
     color: hsl(179, 100%, 13%);
 }
 
 .logo {
     margin-top: 10px;
     padding: 10px;
+
 }
 
 h2 {
@@ -93,7 +95,7 @@ p {
     font-weight: 400;
 }
 
-ul {
+a {
     display: flex;
     margin-top: 50px;
     height: 40px;
@@ -104,8 +106,12 @@ ul {
     border-radius: 25px;
     align-items: center;
     justify-content: center;
-}
-
-a {
     text-decoration-line: none;
 }
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
