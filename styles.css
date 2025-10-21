@@ -50,14 +50,27 @@ body {
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
 }
+
+.box1 li {
+    color: hsl(31, 77%, 52%);
+}
+
 .box2 {
     background-color: hsl(184, 100%, 22%);
+}
+
+.box2 li {
+    color: hsl(184, 100%, 22%);
 }
 
 .box3 {
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 3%;
     border-bottom-right-radius: 3%;
+}
+
+.box3 li {
+    color: hsl(179, 100%, 13%);
 }
 
 .logo {
@@ -95,5 +108,4 @@ ul li {
 
 a, a:active, a:visited {
     text-decoration-line: none;
-    text-decoration-color: transparent;
 }
