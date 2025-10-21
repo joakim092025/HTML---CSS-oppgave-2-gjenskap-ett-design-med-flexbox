@@ -1,0 +1,99 @@
+/*
+section .boxes
+div .container .box
+box .logo h2 p ul li a
+
+--colors
+--colors--primary
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+--colors--neutral
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+--typography
+--body--copy
+font-size 15px
+font-family [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+weights 400
+
+font-family [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders?query=big+shoulders+display)
+weights 700
+*/
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders?query=big+shoulders+display;);
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 70svh;
+    width: 800px;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.logo {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    margin-top: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+ul li {
+    display: flex;
+    margin-top: 50px;
+    height: 40px;
+    width: 130px;
+    list-style-type: none;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+a, a:active, a:visited {
+    text-decoration-line: none;
+    text-decoration-color: transparent;
+}
