@@ -41,7 +41,7 @@ body {
 
 .container {
     display: flex;
-    height: 70svh;
+    height: 400px;
     width: 800px;
 }
 
@@ -93,7 +93,7 @@ p {
     font-weight: 400;
 }
 
-ul li {
+ul {
     display: flex;
     margin-top: 50px;
     height: 40px;
@@ -102,10 +102,10 @@ ul li {
     background-color: hsl(0, 0%, 95%);
     font-family: "Lexend Deca", sans-serif;
     border-radius: 25px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-a, a:active, a:visited {
+a {
     text-decoration-line: none;
 }
