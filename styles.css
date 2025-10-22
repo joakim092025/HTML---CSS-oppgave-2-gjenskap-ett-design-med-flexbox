@@ -76,6 +76,7 @@ body {
 
 .logo {
     margin-top: 10px;
+    margin-left: 20px;
     padding: 10px;
 
 }
@@ -90,6 +91,7 @@ h2 {
 
 p {
     margin-top: 10px;
+    margin-right: 20px;
     color: hsla(0, 0%, 100%, 0.75);
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
